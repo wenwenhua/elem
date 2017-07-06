@@ -209,7 +209,7 @@
     position: absolute;
     font-size: 10px;
     right: 12px;
-    top: 8px;
+    top: 2px;
 }
 .bg{
     position: absolute;
@@ -229,6 +229,7 @@
     z-index: 100;
     overflow: auto;
     background: rgba(7,17,27,0.8);
+    backdrop-filter: blur(10px);
 }
 .detail-wrapper{
     min-height: 100%;
